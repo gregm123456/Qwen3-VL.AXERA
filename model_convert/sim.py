@@ -7,8 +7,8 @@ import sys
 # onnx_output = "Qwen2.5-VL-3B-Instruct_vision.onnx"
 onnx_output = sys.argv[1]
 onnx_model = onnx.load(onnx_output)
-print("IR 版本:", onnx_model.ir_version)
-print("操作集:", onnx_model.opset_import)
+print("IR version:", onnx_model.ir_version)
+print("opset imports:", onnx_model.opset_import)
 # convert model
 model_simp, check = onnxsim.simplify(onnx_model)
 assert check, "Simplified ONNX model could not be validated"

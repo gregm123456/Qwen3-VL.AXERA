@@ -72,7 +72,7 @@ if __name__ == "__main__":
     frames = [ Image.open(p).resize((384,384)) for p in paths ]
 
 
-    text = "描述这个视频."
+    text = "Describe this video."
     messages = [
         {
             "role": "user",

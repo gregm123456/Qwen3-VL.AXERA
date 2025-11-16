@@ -31,7 +31,7 @@ messages = [
                 "type": "image",
                 "image": img,
             },
-            {"type": "text", "text": "描述图片内容"},
+            {"type": "text", "text": "Describe the image content"},
         ],
     }
 ]

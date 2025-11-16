@@ -23,8 +23,8 @@ def export_onnx(model, input, input_names, output_names, onnx_output):
     )
 
     # onnx_model = onnx.load(onnx_output)
-    # print("IR 版本:", onnx_model.ir_version)
-    # print("操作集:", onnx_model.opset_import)
+    # print("IR version:", onnx_model.ir_version)
+    # print("opset import:", onnx_model.opset_import)
     # onnx_model = infer_shapes(onnx_model)
     # # convert model
     # model_simp, check = onnxsim.simplify(onnx_model)
